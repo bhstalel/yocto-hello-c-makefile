@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <hellolib.h>
 
-int main(){
-	printf("Before Hello \n");
+int main()
+{
 	Hello();
 	return 0;
 }

@@ -1,0 +1,12 @@
+[Unit]
+Description=Example System Service
+
+[Service]
+User=root
+Type=simple
+ExecStart=/usr/bin/hello
+ExecStop=/bin/killall -9 hello
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
